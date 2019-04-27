@@ -18,6 +18,7 @@
         <!--suppress AndroidLintContentDescription -->
         <com.example.xyzreader.ui.DynamicHeightNetworkImageView
             android:id="@+id/thumbnail"
+            android:scaleType="centerCrop"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/cardview_shadow_end_color" />
